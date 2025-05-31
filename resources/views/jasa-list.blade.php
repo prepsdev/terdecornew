@@ -1,84 +1,11 @@
 @extends('app')
 
 @section('content')
-    <section id="carousel-section" class="mt-5 bg-custom">
-        <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <!-- Desktop image -->
-                    <img src="{{ asset('images/banner-2.png') }}" class="d-none d-sm-block w-100" alt="Landscape 1">
-                    <!-- Mobile image -->
-                    <img src="{{ asset('images/banner-2-mobile.jpg') }}" class="d-block d-sm-none w-100"
-                        alt="Landscape 1 Mobile">
-                </div>
-                <div class="carousel-item">
-                    <!-- Desktop image -->
-                    <img src="{{ asset('images/banner-1.jpg') }}" class="d-none d-sm-block w-100" alt="Landscape 2">
-                    <!-- Mobile image -->
-                    <img src="{{ asset('images/banner-1-mobile.jpg') }}" class="d-block d-sm-none w-100"
-                        alt="Landscape 2 Mobile">
-                </div>
-            </div>
-
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
+    <section class="hero-section text-white d-flex align-items-center">
+        <div class="container text-center">
+            <h1 class="display-4 fw-bold text-white">Desain Interior Rumah</h1>
         </div>
     </section>
-    <div class="container my-3">
-        <div class="card shadow-sm p-4 position-relative">
-            <div class="badge-gratis">GRATIS!</div>
-            <div class="card-title text-center mb-4">
-                <h4 class="fw-bold">Cek Biaya Renovasi</h4>
-            </div>
-            <form>
-                <div class="mb-3">
-                    <label for="jenis" class="form-label">Jenis</label>
-                    <select class="form-select" id="jenis">
-                        <option selected disabled>Pilih Jenis</option>
-                        <option value="1">Jenis 1</option>
-                        <option value="2">Jenis 2</option>
-                    </select>
-                </div>
-
-                <div class="mb-3">
-                    <label for="kategori" class="form-label">Kategori</label>
-                    <select class="form-select" id="kategori">
-                        <option selected disabled>Pilih Kategori</option>
-                        <option value="1">Kategori 1</option>
-                        <option value="2">Kategori 2</option>
-                    </select>
-                </div>
-
-                <div class="mb-3">
-                    <label for="sub_kategori" class="form-label">Sub Kategori</label>
-                    <select class="form-select" id="sub_kategori">
-                        <option selected disabled>Pilih Sub Kategori</option>
-                        <option value="1">Sub 1</option>
-                        <option value="2">Sub 2</option>
-                    </select>
-                </div>
-
-                <div class="row mb-3">
-                    <div class="col">
-                        <label for="luas" class="form-label">Luas</label>
-                        <input type="number" class="form-control" id="luas" placeholder="Luas">
-                    </div>
-                    <div class="col">
-                        <label for="lebar" class="form-label">Lebar</label>
-                        <input type="number" class="form-control" id="lebar" placeholder="Lebar">
-                    </div>
-                </div>
-
-                <button type="submit" class="btn btn-primary w-100">Cek Harga</button>
-            </form>
-        </div>
-    </div>
     <section class="company-section container my-5 text-center">
         <div class="section-header mb-4">
             <h2 class="company-title">Terdecor Hadir Memenuhi Kebutuhan Anda</h2>
@@ -86,7 +13,8 @@
 
         <div class="row g-4 justify-content-center">
             <div class="col-12">
-                <img src="{{ asset('images/company.jpg') }}" class="rounded img-fluid w-100" alt="Produk 1" style="max-width:700px; height:auto;">
+                <img src="{{ asset('images/company.jpg') }}" class="rounded img-fluid w-100" alt="Produk 1"
+                    style="max-width:700px; height:auto;">
                 <div class="mt-3">
                     <p class="company-description">Terdecor adalah penyedia jasa desain interior profesional untuk rumah,
                         hotel, apartemen, dan kantor. Kami menggabungkan estetika yang menawan dengan fungsionalitas yang
@@ -201,8 +129,7 @@
                 </div>
             </div>
             <div class="col-md-3 col-12">
-                <img src="{{ asset('images/functional.png') }}" class="img-fluid" alt="Produk 1"
-                    style="max-width: 125px;">
+                <img src="{{ asset('images/functional.png') }}" class="img-fluid" alt="Produk 1" style="max-width: 125px;">
                 <div class="mt-3">
                     <p class="choose-subtitle">Estetis & Fungsional</p>
                     <p class="choose-description">Kami menggabungkan keindahan visual dengan kenyamanan penggunaan,

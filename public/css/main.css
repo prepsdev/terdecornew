@@ -12,6 +12,25 @@
     --bs-dark: #081C15;
 }
 
+.hero-section {
+    position: relative;
+    background: url('/images/jasa-header.jpg') no-repeat center center;
+    padding-top: 100px;
+    padding-bottom: 25px;
+}
+.hero-section::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0,0,0,0.4);
+    z-index: 1;
+    pointer-events: none;
+}
+.hero-section > * {
+    position: relative;
+    z-index: 2;
+}
+
 .accordion-button {
     background-color: transparent;
     color: #000;
