@@ -122,8 +122,6 @@
                                 elegan.</p>
                         </div>
                     </div>
-                    <a href="{{ route('jasa.list') }}" class="btn btn-primary w-100 rounded-top-0 rounded-bottom">Lihat
-                        Selengkapnya</a>
                 </div>
 
                 <div class="col-sm-6 col-lg-3">
@@ -136,8 +134,6 @@
                                 masa kini.</p>
                         </div>
                     </div>
-                    <a href="{{ route('jasa.list') }}" class="btn btn-primary w-100 rounded-top-0 rounded-bottom">Lihat
-                        Selengkapnya</a>
                 </div>
 
                 <div class="col-sm-6 col-lg-3">
@@ -150,8 +146,6 @@
                                 nyaman, dan inspiratif.</p>
                         </div>
                     </div>
-                    <a href="{{ route('jasa.list') }}" class="btn btn-primary w-100 rounded-top-0 rounded-bottom">Lihat
-                        Selengkapnya</a>
                 </div>
 
                 <div class="col-sm-6 col-lg-3">
@@ -164,8 +158,11 @@
                                 menginap yang memikat.</p>
                         </div>
                     </div>
+                </div>
+
+                <div class="col-12">
                     <a href="https://wa.me/6287841019855" target="_blank"
-                        class="btn btn-primary w-100 rounded-top-0 rounded-bottom">Lihat
+                        class="btn btn-primary w-100 rounded-top-0 rounded-bottom">Tanya
                         Selengkapnya</a>
                 </div>
 
@@ -216,20 +213,83 @@
         </div>
     </section>
     <section class="porto-section bg-custom">
-        <div class="container-fluid my-5 py-5 text-center">
+        <div class="container my-5 py-5 text-center">
             <div class="section-header mb-4">
-                <h2 class="section-title">Produk Pilihan Kami</h2>
-                <p class="section-description">Beragam produk terbaik untuk kebutuhan Anda</p>
+                <h2 class="section-title">Beberapa Hasil Desain Kami</h2>
+                <p class="section-description">Beragam pilihan desain terbaik untuk kebutuhan Anda</p>
             </div>
 
             <div class="row g-4 justify-content-center">
-                <div class="col-12">
-                    <div class="horizontal-scroll w-100">
-                        <img src="{{ asset('images/product1.jpg') }}" alt="Image 1">
-                        <img src="{{ asset('images/product2.jpg') }}" alt="Image 1">
-                        <img src="{{ asset('images/product3.jpg') }}" alt="Image 1">
-                        <img src="{{ asset('images/product4.jpg') }}" alt="Image 1">
-                        <img src="{{ asset('images/product5.jpg') }}" alt="Image 1">
+                <div class="col-md-4 col-6">
+                    <div class="card h-100 shadow-sm">
+                        <img src="{{ asset('images/room1.jpg') }}" class="card-img-top" alt="Produk 1">
+                        <div class="card-body text-center">
+                            <h5 class="product-title">Kamar Tidur Modern & Nyaman</h5>
+                            <p class="product-description">Ruang tidur dengan dominasi warna netral yang menciptakan kesan
+                                tenang, dilengkapi pencahayaan hangat untuk kenyamanan maksimal.
+
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-6">
+                    <div class="card h-100 shadow-sm">
+                        <img src="{{ asset('images/room2.jpg') }}" class="card-img-top" alt="Produk 2">
+                        <div class="card-body text-center">
+                            <h5 class="product-title">Dapur & Area Makan yang Terbuka</h5>
+                            <p class="product-description">Desain dapur minimalis yang terhubung langsung dengan ruang
+                                makan, memaksimalkan ruang dan cahaya alami.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-6">
+                    <div class="card h-100 shadow-sm">
+                        <img src="{{ asset('images/room3.jpg') }}" class="card-img-top" alt="Produk 3">
+                        <div class="card-body text-center">
+                            <h5 class="product-title">Ruang Keluarga Hangat & Fungsional</h5>
+                            <p class="product-description">Kombinasi elemen kayu dan tekstil hangat menciptakan suasana
+                                rumah yang hidup dan nyaman untuk berkumpul.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-6">
+                    <div class="card h-100 shadow-sm">
+                        <img src="{{ asset('images/room4.jpg') }}" class="card-img-top" alt="Produk 4">
+                        <div class="card-body text-center">
+                            <h5 class="product-title">Living Room Bergaya Elegan</h5>
+                            <p class="product-description">Ruang tamu bergaya klasik modern dengan plafon tinggi dan
+                                pencahayaan alami yang memperkuat kesan luas dan mewah.
+
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-md-4 col-6">
+                    <div class="card h-100 shadow-sm">
+                        <img src="{{ asset('images/room5.jpg') }}" class="card-img-top" alt="Produk 5">
+                        <div class="card-body text-center">
+                            <h5 class="product-title">Kamar Tidur dengan Pemandangan</h5>
+                            <p class="product-description">Penataan ruang tidur yang sederhana namun elegan, dilengkapi
+                                jendela besar untuk pencahayaan alami dan panorama luar.
+
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-6">
+                    <div class="card h-100 shadow-sm">
+                        <img src="{{ asset('images/room6.jpg') }}" class="card-img-top" alt="Produk 6">
+                        <div class="card-body text-center">
+                            <h5 class="product-title">Ruang Duduk Minimalis Skandinavia</h5>
+                            <p class="product-description">Tampilan bersih dan simpel dengan sentuhan warna cerah, ideal
+                                untuk apartemen atau ruang tamu kecil yang stylish.</p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -248,99 +308,108 @@
             </div>
         </div>
     </section>
-    <section class="testimony-section bg-custom">
+    <section class="tahapan-section bg-custom">
         <div class="container my-5 py-5 text-center">
             <div class="section-header mb-4">
-                <h2 class="choose-title">Testimoni Pengguna</h2>
+                <h2 class="choose-title">Tahapan Kerja Tim Kami</h2>
             </div>
 
             <div class="row g-4 justify-content-center">
-                <div class="testimony-scroll w-100 py-3">
-                    <div class="testimonial-card p-4 mx-2">
-                        <h5 class="testimonial-title mb-2">Sangat Memuaskan</h5>
-                        <p class="testimonial-text mb-4">
-                            Layanan interiornya sangat profesional dan tepat waktu. Desainnya benar-benar sesuai keinginan
-                            saya!
-                        </p>
-                        <div class="testimonial-user">- Andi Saputra</div>
+                <div class="col-md-6 col-12">
+                    <img src="{{ asset('images/1tahap.png') }}" class="img-fluid" alt="Produk 1"
+                        style="max-width: 125px;">
+                    <div class="mt-3">
+                        <p class="choose-subtitle">Tahapan Pertama</p>
+                        <p class="choose-description">Kami adalah penyedia jasa desain profesional untuk rumah, hotel,
+                            apartemen, dan kantor, dengan pendekatan yang mengutamakan estetika dan fungsionalitas.</p>
                     </div>
-
-                    <div class="testimonial-card p-4 mx-2">
-                        <h5 class="testimonial-title mb-2">Desain Kreatif</h5>
-                        <p class="testimonial-text mb-4">
-                            Paket interiornya sangat cocok dengan gaya rumah saya. Timnya sangat komunikatif dan ramah.
-                        </p>
-                        <div class="testimonial-user">- Rina Widya</div>
+                </div>
+                <div class="col-md-6 col-12">
+                    <img src="{{ asset('images/2tahap.png') }}" class="img-fluid" alt="Produk 1"
+                        style="max-width: 125px;">
+                    <div class="mt-3">
+                        <p class="choose-subtitle">Tahapan Kedua</p>
+                        <p class="choose-description">Kami adalah penyedia jasa desain profesional untuk rumah, hotel,
+                            apartemen, dan kantor, dengan pendekatan yang mengutamakan estetika dan fungsionalitas.</p>
                     </div>
-
-                    <div class="testimonial-card p-4 mx-2">
-                        <h5 class="testimonial-title mb-2">Harga Terjangkau</h5>
-                        <p class="testimonial-text mb-4">
-                            Kualitas dan harga sangat sepadan. Saya puas dengan hasil akhirnya.
-                        </p>
-                        <div class="testimonial-user">- Budi Santoso</div>
+                </div>
+                <div class="col-md-6 col-12">
+                    <img src="{{ asset('images/3tahap.png') }}" class="img-fluid" alt="Produk 1"
+                        style="max-width: 125px;">
+                    <div class="mt-3">
+                        <p class="choose-subtitle">Tahapan Ketiga</p>
+                        <p class="choose-description">Kami adalah penyedia jasa desain profesional untuk rumah, hotel,
+                            apartemen, dan kantor, dengan pendekatan yang mengutamakan estetika dan fungsionalitas.</p>
                     </div>
-
-                    <div class="testimonial-card p-4 mx-2">
-                        <h5 class="testimonial-title mb-2">Pelayanan Ramah</h5>
-                        <p class="testimonial-text mb-4">
-                            Tim sangat membantu dan responsif. Membuat proses desain jadi mudah dan menyenangkan.
-                        </p>
-                        <div class="testimonial-user">- Siti Nurhaliza</div>
+                </div>
+                <div class="col-md-6 col-12">
+                    <img src="{{ asset('images/4tahap.png') }}" class="img-fluid" alt="Produk 1"
+                        style="max-width: 125px;">
+                    <div class="mt-3">
+                        <p class="choose-subtitle">Tahapan Terakhir</p>
+                        <p class="choose-description">Kami adalah penyedia jasa desain profesional untuk rumah, hotel,
+                            apartemen, dan kantor, dengan pendekatan yang mengutamakan estetika dan fungsionalitas.</p>
                     </div>
                 </div>
             </div>
-
         </div>
     </section>
-
-    <section class="blog-section container my-5 text-center">
+    <section class="faq-section container my-5 text-center">
         <div class="section-header mb-4">
-            <h2 class="choose-title">Bacaan Terbaru</h2>
+            <h2 class="choose-title">FAQ</h2>
         </div>
 
         <div class="row g-4 justify-content-center">
-            <div class="col-12 col-lg-4">
-                <div class="card h-100 shadow-sm">
-                    <img src="{{ asset('images/blog1.jpg') }}" alt="Blog 1" class="card-img-top blog-image">
-                    <div class="card-body d-flex flex-column">
-                        <h5 class="card-title">Tips Memilih Warna Cat Ruangan</h5>
-                        <p class="card-text blog-description">
-                            Pelajari cara memilih warna cat yang tepat untuk membuat ruangan terasa lebih luas dan nyaman.
-                        </p>
-                        <a href="#" class="btn btn-primary mt-auto">Read More</a>
+            <div class="col-12">
+                <div class="accordion" id="faqAccordion">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="faqHeadingOne">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#faqCollapseOne" aria-expanded="true" aria-controls="faqCollapseOne">
+                                Apa itu Terdecor?
+                            </button>
+                        </h2>
+                        <div id="faqCollapseOne" class="accordion-collapse collapse show" aria-labelledby="faqHeadingOne"
+                            data-bs-parent="#faqAccordion">
+                            <div class="accordion-body">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut
+                                labore et dolore magna aliqua.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="faqHeadingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#faqCollapseTwo" aria-expanded="false" aria-controls="faqCollapseTwo">
+                                Bagaimana cara memesan jasa Terdecor?
+                            </button>
+                        </h2>
+                        <div id="faqCollapseTwo" class="accordion-collapse collapse" aria-labelledby="faqHeadingTwo"
+                            data-bs-parent="#faqAccordion">
+                            <div class="accordion-body">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut enim ad minim veniam, quis
+                                nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="faqHeadingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#faqCollapseThree" aria-expanded="false"
+                                aria-controls="faqCollapseThree">
+                                Apakah Terdecor menyediakan konsultasi gratis?
+                            </button>
+                        </h2>
+                        <div id="faqCollapseThree" class="accordion-collapse collapse" aria-labelledby="faqHeadingThree"
+                            data-bs-parent="#faqAccordion">
+                            <div class="accordion-body">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis aute irure dolor in
+                                reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-
-            <div class="col-12 col-lg-4">
-                <div class="card h-100 shadow-sm">
-                    <img src="{{ asset('images/blog2.jpg') }}" alt="Blog 2" class="card-img-top blog-image">
-                    <div class="card-body d-flex flex-column">
-                        <h5 class="card-title">Memaksimalkan Fungsi Ruang Kecil</h5>
-                        <p class="card-text blog-description">
-                            Inspirasi desain interior untuk ruangan kecil agar tetap fungsional dan estetis tanpa terasa
-                            sesak.
-                        </p>
-                        <a href="#" class="btn btn-primary mt-auto">Read More</a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-12 col-lg-4">
-                <div class="card h-100 shadow-sm">
-                    <img src="{{ asset('images/blog3.jpg') }}" alt="Blog 3" class="card-img-top blog-image">
-                    <div class="card-body d-flex flex-column">
-                        <h5 class="card-title">Tren Furniture Minimalis 2025</h5>
-                        <p class="card-text blog-description">
-                            Ketahui tren furniture minimalis terbaru yang cocok untuk mempercantik ruangan dan meningkatkan
-                            kenyamanan.
-                        </p>
-                        <a href="#" class="btn btn-primary mt-auto">Read More</a>
-                    </div>
-                </div>
-            </div>
-
         </div>
     </section>
 @endsection
